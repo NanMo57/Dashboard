@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+}
+:root{
+    --Brown:#43342f;
+    --lightBrown:#a29d91;
+    --headerColor:#ded7c7
+}
+.flex{
+    display: flex;
+    flex-direction: var(--DirectionFlex);
+    align-items: var(--Align);
+    gap:var(--gaps);
+    justify-content:var(--JustifyContent)
+}
+header .Logo img{
+    width:80px;
+    height:80px;
+}
+header .Logo h3{
+    margin-top: -20px;
+    color: var(--lightBrown);
+}
+header .Logo hr{
+    margin-left:3px;
+    margin-right:3px;
+    background-color: var(--Brown);
+    border: none;
+    height: 2px;
+    width: 30px;
+}
+header ul li , header a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    display: block;
+}
+.Product_img{
+    width: 50px;
+    height:50px;
+    border:2px solid;
+    border-radius: 50%;
+}
